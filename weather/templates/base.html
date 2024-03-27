@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-wjB2NOBnJNhpZgM7S1GsNNjI1QJCZtI8yW9ReaXLvDyr6w+GWh1+VgPtPIIdtHR7G2ouqoQjyt7hvvpZtPvm4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>{% block title %} {% endblock title %}</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-size:28px; font-family:garamound;">Sakshi Kumari</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/" style="font-size:20px; font-family:Helvetica;">My Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/skill" style="font-size:20px; font-family:Helvetica;">My Skill set</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/help_and_suggestions" style="font-size:20px;font-family:Helvetica;">Help or Suggestions!</a>
+            </li>
+          </ul>
+          <!--<form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>-->
+        </div>
+      </div>
+    </nav>
+  {% block body %}{% endblock body %}
+  <div class="container-fluid my-3 px-0">
+ 
+    <footer
+            class="text-left text-dark-start text-dark"
+            style="background-color: #F3F3F3"          
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <!--<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold" style='padding-top:15px;'><strong>
+                Saawariya Traders</strong>
+              </h6>
+              <p style="color:#6c757d">
+                At Saawariya Traders We believe in Quality of the product. We care for our customers to make sure they are served good food with good memories.
+              </p>
+            </div>-->
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+            
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold" style='padding-top:15px;'><strong>
+                Social Links</strong>
+              </h6>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/sakshi-kumari-1307761b7/" target="_blank"><i class="bi bi-linkedin"></i>LinkedIn</a></li>
+                <li><a href="https://auth.geeksforgeeks.org/user/kri_sa1997" target="_blank"><i class="fab fa-geeksforgeeks"></i> GeeksforGeeks</a></li>
+                <li><a href="https://github.com/SakshiKumari2023" target="_blank">GitHub</a></li>
+                <li><a href="https://leetcode.com/beginner_31" target="_blank">LeetCode</a></li>
+            </ul>
+
+              <!--<p >
+                
+                <a style="color:#6c757d">Linkdin</a>
+              </p>
+              <p >
+                <a style="color:#6c757d">GFG</a>
+              </p>
+              <p >
+                <a style="color:#6c757d" >Github</a>
+              </p>
+              <p >
+                <a style="color:#6c757d">Leetcode</a>
+              </p>-->
+            </div>
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold" style='padding-top:15px;'><strong>Contact</strong></h6>
+              <!--<p style="color:#6c757d">Bara Bazara, Tower Chowk, Darbhanga, Bihar(846004)</p>-->
+              <p style="color:#6c757d">sakshikumari220548@gmail.com</p>
+              <p style="color:#6c757d">+91 9330690917-(Work Phone)</p>
+              <p style="color:#6c757d">+91 8271612118-(WhatsApp)</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-3">
+  
+    </footer>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title%} Skill Page {%endblock title%}
+{% block body %} 
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+  <h1 class="my-2 text-center" style='padding-top:30px;font-family:garamound;'><strong> Things I learned in my Journey!</strong></h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+      {% for entry in skill_entries %}
+      <div class="col" style="padding-top:50px; padding-right:20px;">
+        <div class="card shadow-sm" style="border: 1px solid  #ced4da;max-width: 370px;">
+          <img src="{{ entry.image_path }}" class="card-img-top" alt="Entry Image" style="height: 250px; width: 100%;">
+          <div class="card-body">
+            <hr class="my-1">
+            <p class="card-text" style=" font-size:25px;background-color: #f0f0f0; text-align: center; color: black;font-family:Helvetica;"><strong>{{entry.name}}</strong></p>
+            <p class="card-text" style="font-style: italic;text-align: center; color: black;font-family:Helvetica;"><strong>{{entry.level}}</strong></p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% endblock body%}

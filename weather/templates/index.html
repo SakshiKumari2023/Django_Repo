@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+{% block title%} Profile Page {%endblock title%}
+{% block body %} 
+
+<!--<style>
+      .history-entry {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        padding-right: 100px;
+        
+    }
+    .history-entry img {
+        max-width: 200px; /* Adjust as needed */
+        margin-right: 20px; /* Adjust as needed */
+        width: 150px; /* Adjust width as needed */
+        height: 150px; /* Adjust height as needed */
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow around the image */
+    }
+      
+        .image-container {
+            width: 550px; /* Adjust width as needed */
+            height: 550px; /* Adjust height as needed */
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow around the image */
+            margin-right: 100px;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .text-container {
+            color: white; /* Text color */
+            font-size: 20px; /* Adjust font size as needed */
+            font-family:cursive; /* Specify font family */
+            text-align: center; /* Align text to the right */
+
+        }
+        .history-details {
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+      }
+      .history-details p {
+        margin-top: 5px; /* Add some gap between each data field */
+    }
+    
+        
+    </style>-->
+  
+    <style>
+      .image-container {
+        flex: 0 0 auto;
+        border-radius: 2%;
+        width: 1000px; /* Set width to auto to take up available space */
+        height: 600px; /* Set the height of the square shape */
+        overflow: hidden; /* Hide overflow content */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      .image-container img {
+          width: 100%; /* Make sure the image fills the container */
+          height: 100%; /* Make sure the image fills the container */
+          object-fit: cover; /* Maintain aspect ratio and cover container */
+      }
+  
+      .text-container {
+        flex-grow: 1;
+    }
+    .history-details {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+  }
+  .history-details p {
+    margin-top: 5px; /* Add some gap between each data field */
+}
+.history-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-right: 100px;
+  
+}
+.history-entry img {
+  max-width: 200px; /* Adjust as needed */
+  margin-right: 20px; /* Adjust as needed */
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow around the image */
+}
+    
+  </style>
+    
+  <div class="container-fluid" style=" display: flex; justify-content: space-between; align-items: center; height: 70vh;margin-top: 17px; padding: 0 20px;">
+
+    <div class="image-container">
+        <img src="\static\my1.JPG" alt="Your Image">
+    </div>
+  
+    <div class="text-container" style="position: absolute; top: 50%; left: 75%; font-family:cursive;  transform: translate(-30%, -50%); color: black;text-align: center; margin-right=10px">
+      <br><br><br><br>
+      <h3 style="font-weight: bold; font-style: italic;font-size:40px;">Hey! I'm</h3>
+      <h1 style="font-weight: bold;font-size:50px;">SAKSHI KUMARI</h1>
+    
+      <hr>
+      <p style="font-size:25px;font-family:garamound;">Let me take you through my journey!</p><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+</div>
+
+    <!--<div class="container-fluid" style="background-color: #1c2a37; display: flex; ustify-content: space-between; align-items: center; height: 70vh; padding: 0 250px; margin-top: 7px;">
+
+        <div class="image-container">
+            <img src="\static\my1.JPG" alt="Your Image">
+        </div>
+        <div class="text-container">
+            
+        </div>-->
+    </div>
+    <!--<div class="container-fluid" style="position: relative; padding: 0; margin: 0; margin-top: 7px;">
+      <img src="\static\my1.JPG" class="d-block w-100" alt="..." style="height: 650px; width: 100%;" >
+      <div class="image-text" style="position: absolute; top: 50%; left: 73%; font-family:cursive;  transform: translate(-50%, -50%); color: black; text-align: center;">
+        <h3 style="font-weight: bold; font-style: italic; text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;">Hey! I'm</h3>
+
+        <h1 style="font-weight: bold; text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;">SAKSHI KUMARI</h1>
+      </div>
+  </div>-->
+  <figure class="text-center" style="position: relative; padding:0; margin-left:20px; margin-top: 30px;border: 1px solid #ccc;">
+    <blockquote class="blockquote">
+      <h3 style="font-style: italic; margin-top:10px;">"Failure will never overtake me if my determination to succeed is strong enough."</h3>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+     <cite title="Source Title">Dr. A.P.J. Abdul Kalam</cite>
+    </figcaption>
+  </figure>
+  <div style="background-color: #f0f0f0; text-align: center; color: black; margin-top:45px; font-family:garamound;">
+    <h1><strong>- My Journey -</strong></h1>
+  </div>
+
+<div class="container-fluid" style="padding-left:200px; margin-top: 100px;margin-bottom: 100px;" >
+  {% for entry in history_entries reversed %}
+  <div class="history-entry"  style="margin-bottom: 50px;" >
+    <img src="{{ entry.image_path }}"  alt="organisation logo">
+    <div class="history-details" style="padding-left:50px;">
+      <h3 style="font-family:garamound;"><strong>{{ entry.place }}</strong> </h3>
+      <h6 style="font-style: italic;">- {{ entry.designation }}</h6>
+      <h6 style="font-style: italic;">- {{ entry.timeperiod }}</h6>
+      {%if entry.work_done%}
+      <strong style="padding-top: 20px;">Work Done:</strong> 
+      <pre style="padding-top: 20px; font-family:garamound; font-size:20px">{{ entry.work_done }}</pre>
+      {%endif%}
+      {%if entry.score%}
+      <h6><strong>Score:</strong> {{ entry.score }}</h6>
+      {%endif%}
+      {%if entry.skill_set%}
+      <p style="padding-top: 20px; font-family:garamound; font-size:20px"><strong>Skill Set:</strong> {{ entry.skill_set }}</p>
+      {%endif%}
+      <br>
+      <hr class="my-3">
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock body%}
+
