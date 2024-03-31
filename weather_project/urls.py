@@ -21,6 +21,10 @@ from weather.views import *
 urlpatterns = [
     path("", home, name='home'),
     path("skill", skill_set, name='skill'),
+    path('register/',register,name='register'),
+    path('login/',login_page,name="login_page"),
+    path('logout/',logout_page,name='logout_page'),
     path("help_and_suggestions",help,name='help'),
     path('admin/', admin.site.urls),
+    
 ]

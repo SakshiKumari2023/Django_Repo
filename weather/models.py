@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -17,6 +18,7 @@ class skills(models.Model):
     image_path = models.CharField(max_length=200, null=True, blank=True)
     
 class feedback(models.Model):
+    
     person_name=models.CharField(max_length=200)
     person_email=models.CharField(max_length=200)
     person_contact=models.CharField(max_length=200)
