@@ -15,7 +15,7 @@ Page5: Help/Suggestions page
 ![image](https://github.com/SakshiKumari2023/Django_Repo/assets/145455944/1c1d5e1b-5bf6-44f0-95c6-05e77cf33a04)
 
 
-Description
+Description<br>
 This is a personal website built using Django, a high-level Python web framework. The website serves as an online portfolio and showcase my skills and experiences.
 Also there is a help and suggestion section which you can use for sharing your thoughts or reaching out to me for any help.
 But for reaching out to me one must authenticate themselves by first registering to my website and then getting logged in. Also once you are done you can logout.
