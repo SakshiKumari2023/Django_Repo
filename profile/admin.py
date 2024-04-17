@@ -1,5 +1,5 @@
 from django.contrib import admin
-from weather.models import *
+from profile.models import *
 
 admin.site.register(history)
 admin.site.register(skills)
